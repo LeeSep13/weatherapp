@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="5dp">
+    <TextView
+        android:id="@+id/item_center_tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2022-5-1"
+        android:textSize="16sp"/>
+    <TextView
+        android:id="@+id/item_center_tv_con"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="晴"
+        android:textSize="16sp"
+        android:layout_toRightOf="@id/item_center_tv_date"
+        android:layout_marginLeft="10dp"/>
+
+    <TextView
+        android:id="@+id/item_center_tv_wind"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerInParent="true"
+        android:paddingLeft="100dp"
+        android:paddingBottom="6dp"
+        android:text="风向"
+        android:textSize="16sp" />
+    <TextView
+        android:id="@+id/item_center_tv_temp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_alignParentRight="true"
+        android:text="9~-1℃"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="#E0E0E0"
+        android:layout_below="@id/item_center_tv_date"
+        android:layout_marginTop="5dp"/>
+</RelativeLayout>
